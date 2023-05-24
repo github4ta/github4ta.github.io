@@ -13,6 +13,6 @@
   <h2>Follow Buttons</h2>
   <!-- ShareThis BEGIN --><div class="sharethis-inline-follow-buttons"></div><!-- ShareThis END -->
   <h2>Image Share Buttons</h2>
-  <img src="1684928350210.JPEG" />
+  <img height=300px src="1684928350210.JPEG" />
 </body>
 </html>
