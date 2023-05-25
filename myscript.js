@@ -12,6 +12,7 @@
    }
 })(document);
 
+
 (function(document) {
    var shareButtons = document.querySelectorAll(".fa[data-network]");
    for(var i = 0; i < shareButtons.length; i++) {
