@@ -15,9 +15,9 @@
     console.log("Вывод массива st-shares");
     console.log(stShares);
     console.log("Вывод текста");
-    console.log(stShares[0].textContent);
-    console.log("Замена текста текста");
-    stShares[0].textContent="Votes";
+    let el = document.getElementsByClassName("st-shares")[0];
+    console.log(el.textContent);
+    el.textContent = "VOTES";
   </script>
 </body>
 </html>
