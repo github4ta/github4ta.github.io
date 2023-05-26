@@ -15,7 +15,8 @@
     $( document ).ready(function() {
       console.log( "document loaded" );
       const elements = $(".sharethis-inline-share-buttons");
-      console.log(elements.get(0));
+      console.log(elements.html());
+      console.log(elements.get(0).html());
     });
  
     $( window ).on( "load", function() {
