@@ -12,9 +12,11 @@
   
   <script>
     let stShares = document.getElementsByClassName("st-shares");
+    console.log("Вывод массива st-shares");
     console.log(stShares);
-    console.log(stShares[0].getText());
-    console.log(stShares[1].getText());
+    console.log("Вывод текста");
+    console.log(stShares[0].textContent);
+    console.log("Замена текста текста");
     stShares[0].textContent="Votes";
   </script>
 </body>
