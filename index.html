@@ -11,7 +11,11 @@
   <!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
   
   <script>
-    document.getElementsByClassName("st-shares")[0].textContent="Votes";
+    let stShares = document.getElementsByClassName("st-shares");
+    console.log(stShares);
+    console.log(stShares[0].getText());
+    console.log(stShares[1].getText());
+    stShares[0].textContent="Votes";
   </script>
 </body>
 </html>
