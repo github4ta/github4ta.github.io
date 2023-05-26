@@ -14,16 +14,13 @@
   <script>
     $( document ).ready(function() {
       console.log( "document loaded" );
-      const element = $(".sharethis-inline-share-buttons");
-      console.log(element);
-      const shares = element.$(".st-shares");
-      console.log(shares);
+      const elements = $(".sharethis-inline-share-buttons");
+      console.log(elements);
+      console.log(elements.get(0));
     });
  
     $( window ).on( "load", function() {
       console.log( "window loaded" );
-      const element = $(".sharethis-inline-share-buttons");
-      console.log(element);
     });
   </script>
 </body>
