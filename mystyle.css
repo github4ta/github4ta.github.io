@@ -54,15 +54,18 @@
   color: white;
 }
 
-div.st-total {
+.st-total {
   text-transform: uppercase;
   color: red;
+  font-size: 96px;
 }
 
 .st-label {
   font-size: 48px;
+  color: green;
 }
 
 .st-shares {
   font-size: 24px;
+  color: blue;
 }
