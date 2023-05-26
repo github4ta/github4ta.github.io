@@ -11,13 +11,13 @@
   <!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
   
   <script>
-    let stShares = document.getElementsByClassName("st-shares");
-    console.log("Вывод массива st-shares");
-    console.log(stShares);
-    console.log("Вывод текста");
-    let el = document.getElementsByClassName("st-shares")[0];
-    console.log(el.textContent);
-    el.textContent = "VOTES";
+    let elements = document.getElementsByClassName("st-shares");
+    let element = elements[0];
+    let elHTML = element.outerHTML;
+    console.log(elHTML);
+    let elText = element.outerText;
+    console.log(elText);
+    element.outerText = "VOTES";
   </script>
 </body>
 </html>
